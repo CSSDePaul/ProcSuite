@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[
+<content>
 # ProcSuite
 
 Tools that monitor and terminate processes using Nektra's SpyStudio.
@@ -9,10 +9,9 @@ Tools that monitor and terminate processes using Nektra's SpyStudio.
 1. Download Python 2
 2. Download Python for Windows Extensions 
 3. Open CMD as Administrator
-	a. Navigate to SpyStudiox64
-	b. Enter the following commands:
-		I. `regsvr32 DeviareCom.dll`
-		II. `regsvr32 DeviareCom64.dll`
-]]></content>
-<tabTrigger>readme</tabTrigger>
+4. Navigate to SpyStudiox64
+5. Enter the following commands:
+6. `regsvr32 DeviareCom.dll`
+7. `regsvr32 DeviareCom64.dll`
+</content>
 </snippet>
