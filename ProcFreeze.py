@@ -5,7 +5,7 @@ whitelist = []
 
 class handler:
     def OnProcessStarted(self, process):
-        if process.Name not in whitelist:
+        if process.UserName not in whitelist:
             process.Terminate()
       
 manager = DispatchWithEvents('DeviareCOM.NktSpyMgr', handler)
