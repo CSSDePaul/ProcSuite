@@ -3,9 +3,9 @@ from Tkinter import Tk
 
 class handler:
     def __init__(self):
-        self.whitelistAccount = ["Administrator"]
-        self.whitelistProcess = ["csrss.exe","winlogon.exe","LogonUI.exe"]
-        self.bypassProcess = ["rdpclip.exe","dwm.exe"]
+        self.whitelistAccount = ["BackupAdministrator"]
+        self.whitelistProcess = ["csrss.exe","winlogon.exe","LogonUI.exe","explorer.exe"]
+        self.bypassProcess = []
         self.prevProcess = []
         
     def OnProcessStarted(self, process):
